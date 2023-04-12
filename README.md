@@ -33,6 +33,8 @@ https://discord.gg/fp8pXaUgSn
 6. Type npm init
 7. Next type npm i
 8. Now your site is ready type npm start
+
+note please also change the discord webhook as well for logs
 ```
 
 ## Demo Website
