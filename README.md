@@ -10,7 +10,7 @@ License of the repository is available at the bottom, for further clarification 
 
 
 ## Support
-
+https://discord.gg/fp8pXaUgSn
 ![Discord Banner 2](https://discordapp.com/api/guilds/1047695181383737374/widget.png?style=banner2)
 
 ## Requirements
