@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Provision Spoofer</title>
+        <link rel="icon" type="image/x-icon" href="images/provision.png">
+        <style>
+            body { 
+                    background-color: #444;
+                }
+                
+            .error-container {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    border-radius: 10px;
+                    padding: 10px;
+                    text-align: center;
+                    max-width: 500px;
+                    width: 80%;
+            }
+                
+            .alert {
+                    margin-bottom: 10px;
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: #fff;
+            }
+                
+            .alert-danger {
+                    background-color: #dc3545;
+            }
+                
+            a {
+                    color: white;;
+                    text-decoration: none;
+            }
+                
+            a:hover {
+                    text-decoration: underline;
+            }
+
+                        
+        </style>
+    </head>
+
+    <body>
+        <div class="error-container">
+            <% if (errors && errors.length > 0) { %>
+              <div class="alert alert-danger">
+                <% errors.forEach(function(error) { %>
+                  <a><%= error.msg %></a><br>
+                <% }) %>
+              </div>
+            <% } %>
+        </div>
+    </body>
+</html>
+
+

@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "http": "^0.0.1-security",
+    "keyauth": "^1.0.3",
+    "node-fetch": "^3.3.1",
+    "stripe": "^11.15.0",
+    "valid-url": "^1.0.9"
+  },
+  "name": "loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Provision Spoofer</title>
+    <link rel="stylesheet" type="text/css" href="/css/panel.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="/images/provision.png">
+
+</head>
+<body>
+    <nav class="nav-bar-bg">
+        <h2 class="nav-text-header">PROVISION</h2>
+        <a class="nav-home" href="/">Home</a>
+        <img class="nav-active" src="/images/underline.png" alt="underline">
+        <a class="nav-support" target="_blank" href="https://discord.gg/k49spBwkTk">Support</a>
+        <a class="nav-panel" href="/Panel">Panel</a>
+    </nav>
+
+    <div class="login-container">
+        
+        <p class="form-label">Reset HWID</p>
+        
+        <form action="/reset-hwid" method="post">
+            <input type="text" id="License" name="License" placeholder="XXXXX-XXXXX-XXXXX-XXXXXX" required/>
+            <button type="submit" class="login-button">RESET</button>
+        </form>
+
+    </div>
+
+    <div class="download-container">
+        <p class="form-lbl">Download</p>
+        <form action="/download" method="post">
+            <input type="text" id="key" name="key" placeholder="XXXXX-XXXXX-XXXXX-XXXXXX" required/>
+            <button type="submit" class="reset-button">DOWNLOAD</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

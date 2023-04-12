@@ -1,0 +1,185 @@
+body{
+    background-color: #161616;;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+
+}
+
+.nav-bar-bg{
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #1B1B1B;
+}
+
+.nav-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+
+    font-weight: 700;
+
+    position: absolute;
+    width: 76px;
+    height: 30px;
+    left: 1404px;
+    top: 29px;
+}
+
+.nav-support{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+
+
+    position: absolute;
+    width: 101px;
+    height: 30px;
+    left: 1542px;
+    top: 28px;
+}
+
+
+.nav-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 1705px;
+    top: 29px;
+}
+
+
+.nav-text-header{
+    position: absolute;
+    width: 239px;
+    height: 49px;
+    left: 145px;
+    top: -1.3rem;
+    
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.nav-active{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+
+    position: absolute;
+    width: 29px;
+    height: 10px;
+    left: 1402px;
+    top: 48px;
+
+}
+
+
+.Body-Provision-Underline{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 212px;
+    height: 45px;
+    left: 320px;
+    top: 382px;
+}
+
+.Body-Provision-Text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 212px;
+    height: 45px;
+    left: 315px;
+    top: 340px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.Spoofing-Text{
+    position: absolute;
+    width: 473px;
+    height: 54px;
+    left: 359px;
+    top: 439px;
+
+    font-family: 'Montserrat';
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+
+}
+
+.Spoofing-Line{
+    position: absolute;
+    width: 250.5px;
+    height: 0px;
+    left: 558px;
+    top: 492px;
+    border: 2px solid #FF5F04;
+}
+
+.buy-button{
+    position: absolute;
+    width: 136px;
+    height: 41px;
+    left: 337px;
+    top: 548px;
+
+    box-sizing: border-box;
+    background-color: transparent;
+
+    cursor: pointer;
+
+
+    color: white;
+    border: 2px solid #FF5C00;
+    border-radius: 45px;
+}
+
+.provision-logo{
+    position: absolute;
+    width: 634px;
+    height: 423px;
+    left: 1087px;
+    top: 255px;
+
+}
