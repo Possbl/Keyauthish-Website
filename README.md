@@ -1,5 +1,7 @@
+# TO-DO
+Fix CSS to change relative to the display size 
 
-# Personal Cheat Website
+# Personal Website
 This is a personal website that I've made by myself, I used figma to create the original design
 Then used a mix of node js and several libraries combined with html & css to create the website according to the design. 
 
@@ -7,13 +9,6 @@ Then used a mix of node js and several libraries combined with html & css to cre
 The validation with JS is all server sided express, clients will not be able to see your code at all. 
 
 License of the repository is available at the bottom, for further clarification please consider reading the license terms.
-
-
-## Support
-https://discord.gg/fp8pXaUgSn
-
-
-![Discord Banner 2](https://discordapp.com/api/guilds/1047695181383737374/widget.png?style=banner2)
 
 ## Requirements
 
@@ -36,16 +31,6 @@ https://discord.gg/fp8pXaUgSn
 
 note please also change the discord webhook as well for logs
 ```
-
-## Demo Website
-
-https://provision.wtf
-
-
-## Authors
-
-- [@Possible](https://www.github.com/Possbl)
-
 
 ## License
 
