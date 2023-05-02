@@ -76,7 +76,7 @@ app.post('/download', async (req, res) => {
     const license = req.body.key;
     const sellerkey = '91i20jde12d12d'; // not real lol
 
-    const webhook = 'https://discordapp.com/api/webhooks/1088199343040909395/d7ccCkK_6FyqOxIBkR-rxT7pvW_K1iRteab9au7KkIgtXG3ODdyrw3pPFaQutoQOOhsJ';
+    const webhook = 'null';
     fetch(`https://keyauth.win/api/seller/?sellerkey=${sellerkey}&type=verify&key=${license}`)
     .then(res => res.json())
     .then(json => {
